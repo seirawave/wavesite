@@ -1,0 +1,121 @@
+
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	background-image: url('assets/communism/1.png');
+}
+
+ #links {
+	color: white;
+	font-size: 1rem;
+	font-weight: 600;
+	line-height: 1.25;
+	font-family: var(--font);
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	max-width: 525px;
+}
+
+
+#links {
+	max-width: 500px;
+	width: auto;
+	display: block;
+	margin: 27px auto;
+}
+
+@media only screen and (max-width: 700px) {
+	#links {
+		margin-left: 3%;
+		margin-right: 3%;
+	}
+    .night_mode {
+		margin-right: 40%;
+	}
+}
+
+.h1-text {
+ display: block;
+ margin-top: 25px;
+ margin-bottom: 25px;
+ text-align: left;
+ color: White;
+ 
+}
+
+.link {
+	display: flex;
+	background-color: #ffffff;
+	color: rgb(0, 0, 0);
+	font-family: var(--font);
+	text-align: -webkit-left;
+	/* margin-bottom: 28px; */
+	line-height: 1.76;
+	/* padding: 17px; */
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: bold;
+	transition: all 0.15s;
+	box-shadow: 0px 6px #333333;
+	padding: 13px 8px;
+	margin: 13px 17px;
+	border-radius: 10px;
+}
+
+.link:hover {
+	/* background: #019489; */
+	box-shadow: 0px 8px #414040;
+	transform: translateY(-2px);
+}
+
+.link:active {
+	transform: translateY(6px);
+	box-shadow: 0px 0px #007569;
+}
+
+
+.list {
+	padding-left: 727px;
+	color: #7e7e7e;
+}
+
+ul {
+	display: block;
+	list-style-type: disc;
+	margin-block-start: 1.3em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 40px;
+}
+
+.link-other {
+
+
+	color: white;
+}
+
+
+#linksbutton {
+    width: auto;
+    text-align: center;
+    margin: 7px auto 20px auto;
+}
+
+.links {
+    display: inline-block;
+    background-color: #ffff;
+    /* margin-bottom: 10px; */
+    padding: 2px 15px;
+    transition: all .25s cubic-bezier(.08, .59, .29, .99);
+    border: solid #272727 2px;
+    color: #000000;
+    font-family: var(--font);
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border: solid #272727 2px;
+}
+
