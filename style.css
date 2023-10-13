@@ -196,6 +196,16 @@ margin-top: 5px;
 	box-shadow: 0px 0px #007569;
 }
 
+.links {
+	padding: 2px 15px;
+    transition: all .25s cubic-bezier(.08, .59, .29, .99);
+    color: #ffffff;
+    font-family: var(--font);
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
 .logo {
     position: static;
     display: block;
@@ -251,21 +261,7 @@ ul {
     margin: 7px auto 20px auto;
 }
 
-.links {
-    display: inline-block;
-    background-color: #ffff;
-    /* margin-bottom: 10px; */
-    padding: 2px 15px;
-    transition: all .25s cubic-bezier(.08, .59, .29, .99);
-    border: solid #272727 2px;
-    color: #000000;
-    font-family: var(--font);
-    text-align: center;
-    text-decoration: none;
-    font-size: 1rem;
-    font-weight: bold;
-    border: solid #272727 2px;
-}
+
 
 .footer {
 	display: flex;
